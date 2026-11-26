@@ -1,0 +1,30 @@
+Andon standalone demo build (no backend / no database needed)
+================================================================
+
+HOW TO RUN
+----------
+1. Open a terminal (cmd or PowerShell) in this folder.
+2. Run:   npx serve -s .
+   (first run downloads a tiny free tool, takes a few seconds)
+3. Open the link it prints (usually http://localhost:3000) in a browser.
+
+LOGIN
+-----
+Username: admin        Password: ChangeMe2026!
+Username: manager      Password: ChangeMe2026!
+Username: supervisor   Password: ChangeMe2026!
+Username: engineer     Password: ChangeMe2026!
+Username: operator     Password: ChangeMe2026!
+(any password is actually accepted in this demo build, in case it's mistyped live)
+
+WHAT THIS IS
+------------
+A fully working copy of the Andon app with realistic sample data built in.
+It makes NO real network calls - everything (dashboard, calls, reports,
+masters, settings) is simulated in the browser, so it runs anywhere, with
+no server, no database, and no internet connection required.
+
+To hand it to someone else: zip this whole folder and send it; they run the
+same npx serve command. To put it on a free public link instead, this folder
+can be deployed as-is to Vercel/Netlify (drag-and-drop, static site, no
+backend configuration needed).
